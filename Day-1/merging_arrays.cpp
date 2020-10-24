@@ -2,15 +2,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void Merge(vector<int> &A,vector<int> &B){
-    
+void Merge(vector<int> &A, vector<int> &B)
+{
 }
 
 int main()
 {
     int n;
-    cin >> n,m;
-    vector<int> A,B;
+    cin >> n;
+    vector<int> A, B;
     for (int i = 0; i < n; i++)
     {
         int temp;
@@ -23,7 +23,7 @@ int main()
         cin >> temp;
         B.push_back(temp);
     }
-    Merge(A,B);
+    Merge(A, B);
     return 0;
 }
 
